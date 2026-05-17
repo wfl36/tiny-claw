@@ -1,0 +1,18 @@
+provider:
+  # type 选择: "openai" (走真实 OpenAI 兼容 API) 或 "mock" (用 main.go 里的写死脚本调试)
+  type: openai
+
+  # 兼容端点 base url, 几个常见样例:
+  #   OpenAI 官方   : https://api.openai.com/v1
+  #   DeepSeek      : https://api.deepseek.com/v1
+  #   通义千问      : https://dashscope.aliyuncs.com/compatible-mode/v1
+  #   智谱 GLM      : https://open.bigmodel.cn/api/paas/v4
+  base_url: https://api.openai.com/v1
+
+  api_key: sk-REPLACE-ME
+
+  # 模型名,由 base_url 对应的厂商决定
+  model: gpt-4o-mini
+
+  # 单次请求超时,留空默认 60s
+  timeout: 60s

@@ -27,3 +27,6 @@ Thumbs.db
 # Env
 .env
 .env.local
+
+# Local secrets (实际 Key 写这里, 只入库 configs/config.example.yaml)
+/configs/config.yaml
