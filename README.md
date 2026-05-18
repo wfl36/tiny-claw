@@ -60,8 +60,6 @@ cp configs/config.example.yaml configs/config.yaml
 | 通义千问 | `https://dashscope.aliyuncs.com/compatible-mode/v1` |
 | 智谱 GLM | `https://open.bigmodel.cn/api/paas/v4` |
 
-> `configs/config.yaml` 含真实 Key，已在 `.gitignore` 中，请勿提交。
-
 ### 3. 跑一条指令
 
 支持三种输入方式：
