@@ -1,5 +1,5 @@
 provider:
-  # type 选择: "openai" (走真实 OpenAI 兼容 API) 或 "mock" (用 main.go 里的写死脚本调试)
+  # type: 目前仅支持 "openai" (走 OpenAI 兼容 API,可对接任意兼容端点)
   type: openai
 
   # 兼容端点 base url, 几个常见样例:
