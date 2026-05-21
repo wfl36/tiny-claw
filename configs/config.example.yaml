@@ -16,3 +16,12 @@ provider:
 
   # 单次请求超时,留空默认 60s
   timeout: 60s
+
+# 飞书机器人配置 (仅 -feishu 模式需要)
+# 在飞书开放平台 → 凭证与基础信息 中获取 app_id / app_secret
+# 长连接模式无需 verify_token / encrypt_key (留空即可)
+feishu:
+  app_id: cli_REPLACE-ME
+  app_secret: REPLACE-ME
+  verify_token: ""
+  encrypt_key: ""
